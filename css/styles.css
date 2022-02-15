@@ -91,7 +91,7 @@ body {
     .sections-wrapper .card:first-child {
         position: absolute;
         top: 50%;
-        left: -340px;
+        left: -350px;
         transform: translateY(-50%);
         width: 294px;
     }
@@ -99,14 +99,32 @@ body {
     .sections-wrapper .card:last-child {
         position: absolute;
         top: 50%;
-        right: -340px;
+        right: -350px;
         transform: translateY(-50%);
         width: 294px;
+    }
+
+    .hero {
+        margin-bottom: 66px;
     }
 
     .hero h1 {
         margin-top: 76px;
         font-size: 36px;
         margin-bottom: 15px;
+    }
+
+    .hero p {
+        max-width: 532px;
+        margin: 0 auto;
+    }
+
+    .card {
+        padding: 26px 30px;
+    }
+
+    .card h1 {
+        font-size: 20px;
+        margin-bottom: 18px;
     }
 }
