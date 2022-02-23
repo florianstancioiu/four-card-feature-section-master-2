@@ -23,7 +23,9 @@ body {
     font-weight: 600;
 }
 
-.hero p {
+.hero .hero-span {
+    font-weight: 200;
+    display: block;
     text-align: center;
     color: hsl(229, 6%, 66%);
     margin: 0;
@@ -46,7 +48,7 @@ body {
     background-color: white;
 }
 
-.card h1 {
+.card h2 {
     margin-top: 0;
     color: hsl(234, 12%, 34%);
 }
@@ -135,7 +137,7 @@ body {
         padding: 26px 30px;
     }
 
-    .card h1 {
+    .card h2 {
         font-size: 20px;
         margin-bottom: 18px;
     }
